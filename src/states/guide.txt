@@ -1,0 +1,5 @@
+1. index.js in main directory tells about all action creators
+2. store.js stores the value of all the variables of a states (takes reducers, initial state, and middleware if any)
+3. In reducers folder, amountreducers from state changes based on action-creators
+4. index.js file in this directory is used to export all the reducers combined
+5. index.js file in action-creators define state-changes, such as their types and payload.
